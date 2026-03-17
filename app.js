@@ -4,7 +4,7 @@ const rl= readline.createInterface({ input:process.stdin,
 
 })
 
-const todos=[];
+const todos= [];
 
 const showMenu=()=>{
     console.log("\n1: Add a Task");
