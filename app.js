@@ -13,7 +13,7 @@ const showMenu=()=>{
     rl.question("Choose an option ", handleInput)
 }
 const handleInput=(option)=>{
-    if(option==="1"){
+    if(option === "1"){
         rl.question("Enter the task",(task)=>{
             todos.push(task);
             console.log("Task Added", task);
